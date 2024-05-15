@@ -41,12 +41,11 @@ const Services = () => {
            
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-center lg:text-left">
-            About QWICQ-TRANZACT Services LTD
+            About AGESGLOBAL
             </h2>
           </div>
           <p className="leading-loose">
-          Welcome to QWICQ-TRANZACT Services LTD, your one-stop destination for all your car needs. Whether you're looking to rent a vehicle for a weekend getaway or purchase your dream car, we've got you covered. Explore our wide range of rental options or browse through our inventory of quality pre-owned vehicles for sale. With competitive prices and exceptional service, we're committed to making your car rental or purchase experience seamless and enjoyable.
-          </p>
+          At Ages Global, we are committed to delivering exceptional automotive solutions tailored to meet the diverse needs of motorists and industries worldwide. With over a decade of experience, we have established ourselves as a trusted provider of fuels, lubricants, petroleum products, and car-care sundries, ensuring vehicles run smoothly and efficiently on the road.   </p>
         </div>
       </div>
     </section>
