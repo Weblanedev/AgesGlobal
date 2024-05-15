@@ -9,7 +9,7 @@ const Plan = ({ title }) => {
 
   return (
     <div className="flex items-center gap-2">
-      <CheckCircleIcon className="text-orange-600 text-xl" />
+      <CheckCircleIcon className="text-gray-600 text-xl" />
       <span>{title}</span>
     </div>
   );
@@ -55,11 +55,11 @@ const PricingCard = ({ name, title, price, image, btnText, trail, titleOne, titl
         <Link href="/billing">
           <p
             onClick={() => { purchase(name, price) }}
-            className="w-fit capitalize text-base hover:bg-orange-600 hover:shadow-md hover:shadow-orange-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-orange-600 hover:border-orange-600 hover:text-white rounded-full">
+            className="w-fit capitalize text-base hover:bg-gray-600 hover:shadow-md hover:shadow-gray-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-gray-600 hover:border-gray-600 hover:text-white rounded-full">
             {btnText}
           </p>
         </Link>
-        <span className="block text-orange-600 mt-5 font-semibold animate-bounce cursor-pointer">
+        <span className="block text-gray-600 mt-5 font-semibold animate-bounce cursor-pointer">
           {trail}
         </span>
       </div>
@@ -76,9 +76,9 @@ const page = () => {
       </div>
       <div className="grid grid-cols-3 gap-[40px]">
         <PricingCard
-          name="Daily Rentals"
-          title="Short-term rentals for daily use, perfect for running errands or exploring the city."
-          price="75"
+          name="Renovation and Modification Services"
+          title="Our team of experts specializes in renovating, modifying, altering, adapting, or specially equipping motor vehicles to meet your unique requirements. Whether you're looking to enhance performance, upgrade features, or customize aesthetics, we'll work closely with you to bring your vision to life."
+          price="1450"
           image="https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           btnText="Purchase"
           titleOne="Sofas, couches, and sectionals"
@@ -88,9 +88,9 @@ const page = () => {
 
         />
         <PricingCard
-          name="Weekly Rentals"
-          title="Short-term rentals for weekly use, perfect for running errands or exploring the city."
-          price="500"
+          name="Servicing and Maintenance"
+          title="Trust our skilled technicians to keep your vehicles in peak condition with our servicing, maintenance, repair, and cleaning services. From routine oil changes and tire rotations to complex engine repairs and detailing, we provide comprehensive automotive care to ensure your vehicles perform at their best."
+          price="600"
           image="https://images.pexels.com/photos/18867032/pexels-photo-18867032/free-photo-of-traffic-on-a-crowded-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           btnText="Purchase"
           titleOne="Sofas, couches, and sectionals"
@@ -100,10 +100,10 @@ const page = () => {
 
         />
         <PricingCard
-          name="Monthly Rentals"
-          title="Short-term rentals for monthly use, perfect for running errands or exploring the city."
+          name="Car-Care Sundries"
+          title="In addition to fuels and lubricants, we provide motorists' requisites and car-care sundries to help you maintain and care for your vehicles. From cleaning products and maintenance tools to accessories and spare parts, we have everything you need to keep your vehicle in top condition."
           price="900"
-          image="https://images.pexels.com/photos/18776097/pexels-photo-18776097/free-photo-of-blue-and-white-honda-civic-cars.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          image="https://images.pexels.com/photos/18889304/pexels-photo-18889304/free-photo-of-close-up-of-racing-bmw-e9.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           btnText="Purchase"
           titleOne="Sofas, couches, and sectionals"
           titleTwo="Dining tables and chairs"
@@ -112,22 +112,10 @@ const page = () => {
 
         />
         <PricingCard
-          name="One-Way Rentals"
-          title="Flexibility to pick up a rental car at one location and drop it off at another, great for road trips or moving purposes."
+          name="Fuel and Lubricants Supply"
+          title="From gasoline and diesel to specialty lubricants, we offer a comprehensive range of products to keep your vehicles running at their best. Our fuels are rigorously tested for quality and reliability, while our lubricants are formulated to provide optimal performance and protection for engines and machinery."
           price="200"
-          image="https://images.pexels.com/photos/17958138/pexels-photo-17958138/free-photo-of-cars-on-road-near-construction-beams-on-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          btnText="Purchase"
-          titleOne="Sofas, couches, and sectionals"
-          titleTwo="Dining tables and chairs"
-          titleThree="Beds and mattresses"
-          titleFour="Cabinets and storage solutions"
-
-        />
-        <PricingCard
-          name="Luxury Car Rentals"
-          title="Premium vehicles with top-of-the-line features and amenities for special occasions or luxury travel experiences."
-          price="1200"
-          image="https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          image="https://images.pexels.com/photos/3045302/pexels-photo-3045302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           btnText="Purchase"
           titleOne="Sofas, couches, and sectionals"
           titleTwo="Dining tables and chairs"

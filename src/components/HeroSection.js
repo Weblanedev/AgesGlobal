@@ -9,11 +9,11 @@ const HeroSection = () => {
       <div className="container px-5 md:px-16 mx-auto flex flex-col lg:flex-row justify-between">
         <div>
           <h1 className="capitalize text-left flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[4rem] 2xl:text-5xl font-bold">
-            <p>Your one-stop destination</p>
-            <p>for all your car needs</p>
+            <p>Welcome to Ages Global</p>
+            <p>Your Automotive Partner for Excellence</p>
           </h1>
           <p className="text-lg leading-normal text-left w-[70%] sm:leading-loose my-4 md:my-6">
-            Whether you're looking to rent a vehicle for a weekend getaway or purchase your dream car, we've got you covered. Explore our wide range of rental options or browse through our inventory of quality pre-owned vehicles for sale. With competitive prices and exceptional service, we're committed to making your car rental or purchase experience seamless and enjoyable.
+          At Ages Global, we are committed to delivering exceptional automotive solutions tailored to meet the diverse needs of motorists and industries worldwide. With over a decade of experience, we have established ourselves as a trusted provider of fuels, lubricants, petroleum products, and car-care sundries, ensuring vehicles run smoothly and efficiently on the road.
           </p>
         </div>
         <div className="w-full relative">

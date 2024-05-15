@@ -37,7 +37,7 @@ const QualityFeatures = () => {
         <QualityFeature
           imgSrc="/features/4.svg"
           title="Customer Support"
-          desc="At QWICQ Technologies Ltd, we're dedicated to providing exceptional customer support to ensure that your experience with us is nothing short of excellent."
+          desc="At Ages Global Technologies Ltd, we're dedicated to providing exceptional customer support to ensure that your experience with us is nothing short of excellent."
         />
       </div>
     </section>

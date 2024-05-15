@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <p className="max-w-xs mt-4 text-sm">
-            At QWICQ-TRANZACT SERVICES LTD, we're committed to making your car rental or purchase experience seamless and enjoyable.
+            At Ages Global, With over a decade of experience, we have established ourselves as a trusted provider of fuels, lubricants, petroleum products, and car-care sundries, ensuring vehicles run smoothly and efficiently on the road.
             </p>
         
           </div>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs">© 2021 QQWICQ-TRANZACT SERVICES LTD- All rights reserved</p>
+        <p className="mt-8 text-xs">© 2021 - All rights reserved</p>
       </div>
     </footer>
   );

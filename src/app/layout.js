@@ -5,8 +5,8 @@ import ThemeProvider from "@/components/ThemeProvider";
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 export const metadata = {
-  title: "QWICQ-TRANZACT LTD",
-  description: "Whether you're looking to rent a vehicle for a weekend getaway or purchase your dream car, we've got you covered.",
+  title: "AGESGLOBAL",
+  description: "At Ages Global, we are committed to delivering exceptional automotive solutions tailored to meet the diverse needs of motorists and industries worldwide. With over a decade of experience, we have established ourselves as a trusted provider of fuels, lubricants, petroleum products, and car-care sundries, ensuring vehicles run smoothly and efficiently on the road.",
 };
 
 export default function RootLayout({ children }) {

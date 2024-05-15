@@ -15,7 +15,7 @@ const CoreFeatures = () => {
         </div>
       </div>
       <div className="flex flex-col gap-2 flex-1">
-        <span className="text-orange-600 uppercase block font-semibold tracking-widest">
+        <span className="text-gray-600 uppercase block font-semibold tracking-widest">
 
         </span>
         <h2 className=" capitalize text-3xl md:text-4xl xl:text-5xl font-bold my-3">
@@ -25,7 +25,7 @@ const CoreFeatures = () => {
           Ready to get your ride? Contact us to schedule a consultation or visit our retail outlet to explore our selection of premium cars.
         </p>
         <Link href="/contact">
-        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-orange-600 hover:border-orange-600 hover:bg-orange-600 hover:shadow-orange-600 hover:shadow-2xl rounded-full">
+        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-gray-600 hover:border-gray-600 hover:bg-gray-600 hover:shadow-gray-600 hover:shadow-2xl rounded-full">
           Contact Us
         </button>
         </Link>

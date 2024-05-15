@@ -9,7 +9,7 @@ const Plan = ({ title }) => {
 
     return (
         <div className="flex items-center gap-2">
-            <CheckCircleIcon className="text-orange-600 text-xl" />
+            <CheckCircleIcon className="text-gray-600 text-xl" />
             <span>{title}</span>
         </div>
     );
@@ -55,11 +55,11 @@ const PricingCard = ({ name, title, price, image, btnText, trail, titleOne, titl
                 <Link href="/billing">
                     <p
                         onClick={() => { purchase(name, price) }}
-                        className="w-fit capitalize text-base hover:bg-orange-600 hover:shadow-md hover:shadow-orange-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-orange-600 hover:border-orange-600 hover:text-white rounded-full">
+                        className="w-fit capitalize text-base hover:bg-gray-600 hover:shadow-md hover:shadow-gray-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-gray-600 hover:border-gray-600 hover:text-white rounded-full">
                         {btnText}
                     </p>
                 </Link>
-                <span className="block text-orange-600 mt-5 font-semibold animate-bounce cursor-pointer">
+                <span className="block text-gray-600 mt-5 font-semibold animate-bounce cursor-pointer">
                     {trail}
                 </span>
             </div>
